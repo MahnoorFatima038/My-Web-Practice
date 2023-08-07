@@ -1,0 +1,153 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500;1,900&display=swap');
+</style>
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+   font-family: 'Roboto', sans-serif;
+}
+.AA
+{
+ background-image: url("https://media.istockphoto.com/id/1305999733/photo/web-design-desktop.jpg?s=612x612&w=0&k=20&c=mdGnzSrhUGijPuXHR3vA_hrQyshToudcJc8A50L0a9I="); 
+ background-size: cover; 
+ background-repeat: no-repeat;
+ background-position: center;
+ min-height: 100vh;
+}
+
+.BB
+{
+text-align: center;
+color:black;
+font-size:small;
+padding-left:80px;
+margin: 0 auto;
+
+}
+.CC
+{
+    font-size:30px;
+}
+
+.DD
+{
+background-color: black;
+padding-left:80px;
+padding-top: 80px;
+color: white;
+font-size: 30px;
+text-align: center;
+padding:20px;
+}
+
+.EE
+{
+    font-size: 70px;
+}
+
+.work
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap:5px;
+
+}
+
+
+.DD:hover
+{
+
+    background-color: white;
+    color:black;
+    transition: 0.2s ease-in-out;
+
+}
+
+
+.card
+{
+    max-width: 320px;
+    border-radius: 10px; 
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    height:100ssspx;
+   transition: 0.2s ease-in-out;
+   background-color:aliceblue;
+}
+
+.card:hover
+{
+transform: scale(1.04);
+transition: 0.2s ease-in-out;
+}
+.grid-items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    height: 350px;
+}
+
+.card-content h1,p
+{
+text-align: center;
+color: black;
+
+}
+
+.bottom
+{
+
+
+    display: flex;
+    height: 200px;
+}
+
+.contact
+{
+background-color:  #515603;
+text-align:center;
+
+}
+
+
+.about
+{
+
+
+    background-color: #722300;
+    text-align:center;
+}
+
+
+.head
+{
+    color:white;
+    padding:20px;
+    font-size: 20px;
+}
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height:70px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+
+footer:hover
+{
+    background-color: white;
+    color:black;
+    transition: 0.2s ease-in-out;
+}
+
+
+
